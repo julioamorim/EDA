@@ -5,7 +5,7 @@ import com.google.gson.JsonObject;
 import io.julioamorim.model.Address;
 import io.julioamorim.model.Events;
 import io.julioamorim.model.User;
-import
+
 
 import java.util.logging.Logger;
 
