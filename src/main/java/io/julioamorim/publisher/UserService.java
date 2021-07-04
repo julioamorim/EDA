@@ -16,6 +16,7 @@ public class UserService {
     public User updateUser(User user, Address address) {
         user.upateUserAddress(address);
         publishEvent(Events.CHANGE_ADDRESS_CONFIRMATION, user.getEmail());
+        return user;
     }
 
     private void publishEvent(Events event, String emailAddress) {
