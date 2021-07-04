@@ -1,4 +1,4 @@
-package io.julioamorim.publisher;
+package io.julioamorim.producer;
 
 import org.apache.kafka.clients.producer.*;
 

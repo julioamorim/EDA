@@ -1,4 +1,4 @@
-package io.julioamorim.publisher;
+package io.julioamorim.producer;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
