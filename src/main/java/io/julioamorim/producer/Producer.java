@@ -6,11 +6,11 @@ import io.julioamorim.model.User;
 public class Producer {
 
     public static void main(String[] args) {
-        Address address = new Address("R. Luís Coelho - Consolação, São Paulo - SP", 223, "01309001");
-        User user = new User((long) 1, "Otavio", "Tarelho", 1994,
-                9, 16, "otavio.barros@avenuecode.com", address);
+        Address address = new Address("Rua bom jesus, Recife - PE", 222, "54000-000");
+        User user = new User((long) 1, "Júlio", "Amorim", 1994,
+                9, 16, "julioamorim@github.io", address);
 
-        Address newAddress = new Address("O'Farrell St, San Francisco, CA, US", 26, "94108");
+        Address newAddress = new Address("Rua domingos savio", 12, "53000-000");
 
         new UserService().updateUser(user, newAddress);
     }
